@@ -1,10 +1,8 @@
-// import java.util.Scanner;
-
 public class FuzzyDemo {
     public static void main(String[] args) {
         
         Fuzzy fuzzy = new Fuzzy();
-        double ipk = 3.4, gaji = 2;
+        double ipk = 3, gaji = 2.8;
 
         // Tahap fuzzifikasi
         double ipkJelek = fuzzy.leftTrapesium(ipk, 0, 2, 2.8);
